@@ -1,0 +1,127 @@
+/* General Styling */
+body {
+    background-color: rgb(15, 15, 29);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #c0ffff; /* Lemon yellow */
+    font-family: 'Lobster', cursive;
+    font-weight: bold;
+    border: 4px solid crimson;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Header */
+.header-title {
+    margin-bottom: 20px;
+}
+
+.header-title h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em; /* Larger font */
+    color: #ca81ca;
+}
+
+.header-title h2 {
+    font-family: 'Lobster', cursive;
+    font-size: 2em; /* Slightly smaller than main header */
+    color: #e2dfe2;
+    margin-top: 10px;
+}
+
+.header-title img {
+    width: 800px;
+    height: 330px;
+    margin-top: 10px;
+}
+
+/* Services */
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-column {
+    flex: 0 0 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-column img {
+    width: 150px;
+    height: auto;
+    border: 2px solid crimson;
+    border-radius: 8px;
+}
+
+.services-section h2 {
+    font-size: 2.5em; /* Large header for services */
+    margin-bottom: 10px;
+}
+
+.services-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services-section li {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 2.0em;
+}
+
+/* Reviews */
+.reviews {
+    margin: 20px 0;
+}
+
+.reviews h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.reviews-images {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.reviews-images img {
+    width: 225px;
+    height: 225px;
+    border: 2px solid crimson;
+    border-radius: 8px;
+}
+
+/* Contact */
+.contact p, .contact a {
+    font-size: 1.5em; /* Larger font for visibility */
+    color: #bebebe;
+}
+
+.contact a {
+    color: crimson;
+}
+
+/* Footer */
+footer p {
+    font-family: 'Passion One', cursive;
+    color: rgb(255, 0, 0);
+    font-size: 1.8em; /* Maintain readability */
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 1px solid white;
+    text-align: center;
+}
